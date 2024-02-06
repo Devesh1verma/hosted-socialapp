@@ -46,9 +46,9 @@ function Createpost() {
         console.log(body,image)
         const data=new FormData()
         data.append("file",image)
-        data.append("upload_preset","SocialApp")
-        data.append("cloud_name","aruj")
-        fetch("https://api.cloudinary.com/v1_1/aruj/image/upload",
+        data.append("upload_preset","devesh2020011058")
+        data.append("cloud_name","devesh2020011058")
+        fetch("https://api.cloudinary.com/v1_1/devesh2020011058/image/upload",
         {
             method:"post",
             body:data
@@ -58,6 +58,7 @@ function Createpost() {
        
         
     }
+    // Function to preview a file.
     const loadfile=(event)=>{
         
             var output = document.getElementById('output');
